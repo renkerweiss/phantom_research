@@ -1,0 +1,7 @@
+# Project copy: crawlers use https://renkerweiss.github.io/robots.txt.
+# This file at /phantom_research/robots.txt does not control crawling.
+# To activate, merge these directives into the domain-root robots.txt.
+User-agent: *
+Allow: /phantom_research/
+Sitemap: https://renkerweiss.github.io/phantom_research/sitemap.xml
+
