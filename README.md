@@ -26,7 +26,7 @@ Keine benutzerdefinierte Domain/CNAME wird benötigt.
 - Absolute HTTPS-Canonical-URL, Open Graph und Twitter Summary-Metadaten.
 - JSON-LD als WebPage, ohne die fiktive Person als reale Wissenschaftlerin oder realen Wissenschaftler auszuzeichnen.
 - Sprachangabe, UTF-8 und mobile Viewport-Angabe vorhanden.
-- sitemap.xml enthält ausschließlich die kanonische Startseite; keine Fragment-URLs oder erfundenen Änderungsdaten.
+- sitemap.xml enthält Startseite, profil.html und paradoxon.html; keine Fragment-URLs oder erfundenen Änderungsdaten.
 - index, follow erlaubt Indexierung, garantiert sie aber nicht.
 
 ### Wichtige Grenze von robots.txt
@@ -47,4 +47,10 @@ ein solcher Code wurde nicht erfunden oder hinzugefügt.
 Dokumentation:
 - https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+## Editorial-Website · 25. Oktober 2026
+
+Drei responsive Seiten mit gemeinsamer Navigation, Inhaltsverzeichnissen und Transparenzabschnitt. Systemschriften und lokale Assets vermeiden externe Schrift- und Trackingdienste. Porträt und Generierungsprompt: ASSETS.md. Redaktionelle Herkunft und Quellenprüfung: REDAKTION.md.
+
+Die Editorial-Fassung wurde lokal mit 47 internen Links/Asset-Verweisen und im Browser bei Desktopbreite sowie 390 und 320 Pixel geprüft. Die Veröffentlichung erfolgt über den vorhandenen Pages-Workflow von main. Aktuelle Build-Ergebnisse stehen im Actions-Bereich des Repositories.
 
